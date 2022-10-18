@@ -51,10 +51,11 @@ public class Main {
         var hoursWork = 640;
         var hoursWorker = 8;
         var amountWorkers = hoursWork / hoursWorker;
-        System.out.println("Всего работников в компании –  " + amountWorkers + " человек");
+        System.out.println("Всего работников в компании –  " + amountWorkers + " человек.");
 
         amountWorkers = amountWorkers +94;
         var hoursWorkers = amountWorkers * hoursWorker;
-        System.out.println("Если в компании работает " + amountWorkers + " человек, то всего " + hoursWorkers + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + amountWorkers + " человек, то всего " + hoursWorkers + " часов работы может быть поделено между сотрудниками.");
+
     }
 }
